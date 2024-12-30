@@ -1,0 +1,16 @@
+<template>
+    <div style="height:300px;">
+        <!-- <h1>
+            rowid :{rowId} <br>
+
+            rowname :{rowName}
+        </h1> -->
+        <lightning-datatable
+                key-field="Id"
+                data={contacts}
+                columns={columns}
+                onrowaction={handlerowAction}>
+                
+        </lightning-datatable>
+    </div>
+</template>

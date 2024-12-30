@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isExposed>true</isExposed>
+    <masterLabel>Sakthi</masterLabel>
+    <description>This is a message lightning channel for Account data.</description>
+    
+    <!-- Define rowId field -->
+    <lightningMessageFields>
+        <fieldName>rowId</fieldName> <!-- Correct placement of FieldName -->
+        <description>This is Account Row ID</description>
+    </lightningMessageFields>
+
+    <!-- Define rowName field -->
+    <lightningMessageFields>
+        <fieldName>rowName</fieldName> <!-- Correct placement of FieldName -->
+        <description>This is Account Name</description>
+    </lightningMessageFields>
+</LightningMessageChannel>
